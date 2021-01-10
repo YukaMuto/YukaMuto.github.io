@@ -7,21 +7,27 @@
      <title>Document</title>
      <title>建ぺい率</title>
      <style>
+         h1{
+             color:darkgreen;
+             background-color:aquamarine;
+         }
          img{
              width:900px;
              height:500px;
+             border:8px solid gray;
          }
      </style>
      <script>
-       alert('表示テスト');
+       alert('建ぺい率');
+       var building = prompt("建物面積 ÷ 敷地面積 × 100％ を計算します。建物面積の値を入力してください");
+　　　　var site = prompt("敷地面積 の値を入力してください");
+       alert('建ぺい率は'+ building/site*100 +'％')
      </script>
     </head>
     <body>
          <h1>建ぺい率</h1>
          <p>
             「ある土地（敷地）の面積と、そこに建築された建物面積の割合」のこと。
-            
-            分かりやすく図で説明します。
             <img src="kenpeiritsu.jpg" alt="建ぺい率"/>
          </p>
     </body>
