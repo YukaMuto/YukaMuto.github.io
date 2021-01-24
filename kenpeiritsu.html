@@ -1,7 +1,3 @@
-alert('建ぺい率');
-var building = prompt("建物面積の値を入力してください");
-var site = prompt("敷地面積 の値を入力してください");
-alert('建ぺい率は'+ building/site*100 +'％')
 <!DOCTYPE html>
  <html lang="en">
  <html lang="ja">
@@ -23,15 +19,16 @@ alert('建ぺい率は'+ building/site*100 +'％')
              border:8px solid gray;
          }
      </style>
-    </head>
-    <body>
+     <title>建ぺい率</title>
+     <script>
       alert('建ぺい率');
       var building = prompt("建物面積の値を入力してください");
       var site = prompt("敷地面積 の値を入力してください");
-      alert('建ぺい率は'+ building/site*100 +'％')
-      document.write("入力  一階の床面積 = " + building1 + ":  二階の床面積 = " + building2 + ": 敷地面積 =" + site1 + "<br />");
-      document.write('容積率は'+ (building1+building2)/site1*100 +'％')
+      document.write("入力  建物面積 = " + building + ":  敷地面積 = " + site + "<br />");
+      document.write('建ぺい率は'+ building/site*100 +'％' + "<br />");
      </script>
+    </head>
+    <body>
          <h1>～建ぺい率～</h1>
          <p>
             「ある土地（敷地）の面積と、そこに建築された建物面積の割合」のこと。
