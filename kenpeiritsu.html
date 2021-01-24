@@ -2,3 +2,47 @@ alert('建ぺい率');
 var building = prompt("建物面積の値を入力してください");
 var site = prompt("敷地面積 の値を入力してください");
 alert('建ぺい率は'+ building/site*100 +'％')
+<!DOCTYPE html>
+ <html lang="en">
+ <html lang="ja">
+    <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+     <title>Document</title>
+     <title>建ぺい率</title>
+     <style>
+         h1,h2{
+             color:darkgreen;
+             background-color:aquamarine;
+             font-size:32px;
+             padding:16px;
+         }
+         img{
+             width:900px;
+             height:500px;
+             border:8px solid gray;
+         }
+     </style>
+    </head>
+    <body>
+      alert('建ぺい率');
+      var building = prompt("建物面積の値を入力してください");
+      var site = prompt("敷地面積 の値を入力してください");
+      alert('建ぺい率は'+ building/site*100 +'％')
+      document.write("入力  一階の床面積 = " + building1 + ":  二階の床面積 = " + building2 + ": 敷地面積 =" + site1 + "<br />");
+      document.write('容積率は'+ (building1+building2)/site1*100 +'％')
+     </script>
+         <h1>～建ぺい率～</h1>
+         <p>
+            「ある土地（敷地）の面積と、そこに建築された建物面積の割合」のこと。
+          建ぺい率の計算は<a href="kenpeiritsu.html">こちら</a>!!
+            <img src="kenpeiritsu.jpg" alt="建ぺい率"/>
+         </p>
+         <h2>～容積率～</h2>
+         <p>
+            「敷地の面積と、建物の延べ面積（全フロアの合計面積）の割合」のこと。
+          容積率の計算は<a href="yousekiritsu.html">こちら</a>!!
+            <img src="yousekiritsu.jpg" alt="容積率"/>
+         </p>
+    </body>
+  </html>
