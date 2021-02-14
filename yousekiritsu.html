@@ -6,27 +6,8 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
      <title>Document</title>
      <title>建ぺい率</title>
-     <style>
-         h2{
-             color:darkgreen;
-             background-color:aquamarine;
-             font-size:32px;
-             padding:16px;
-         }
-         img{
-             width:900px;
-             height:500px;
-             border:8px solid gray;
-         }
-     </style>
-     <script>      
-      alert('容積率')
-      var building1 = parseInt(prompt("１階の床面積の値を入力してください"));
-      var building2 = parseInt(prompt("２階の床面積の値を入力してください"));
-      var site1 = prompt("敷地面積 の値を入力してください");
-      document.write("入力  一階の床面積 = " + building1 + ":  二階の床面積 = " + building2 + ": 敷地面積 =" + site1 + "<br />");
-      document.write('容積率は'+ (building1+building2)/site1*100 +'％')
-     </script>    
+     <link rel="stylesheet" href="yousekiritsu.css">
+     <script type="text/javascript" src="yousekiritsu.js"></script>
    </head>
     <body>
          <h2>～容積率～</h2>
@@ -34,4 +15,5 @@
             「敷地の面積と、建物の延べ面積（全フロアの合計面積）の割合」のこと。
           容積率の計算は<a href="yousekiritsu.html">こちら</a>!!
             <img src="yousekiritsu.jpg" alt="容積率"/>
+          <br><出典：https://myhome.nifty.com/column/ikkodate/190612277144/>
          </p>
