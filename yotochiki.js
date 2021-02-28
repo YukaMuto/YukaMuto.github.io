@@ -3,7 +3,7 @@ if (tyou == 1){
  alert('調布ヶ丘1丁目の計算')
  let ken = prompt("建ぺい率の値を入力してください");
  let you = prompt("容積率の値を入力してください");
-    if (ken <= 50 && you < 1=00){
+    if (ken <= 50 && you < 100){
         alert('第一種低層住居専用地域');
     }
     else if (ken <= 60 && you <= 200){
