@@ -1,5 +1,4 @@
 @media print, screen and (min-width: 640px) {
-
          h1,h2,h3{
                   color:blue;
                   background-color:aqua;
@@ -10,6 +9,28 @@
              width:900px;
              height:500px;
              border:8px solid gray;
+         }
+         * {
+            margin:0; padding:0;
+         }
+         header {
+                  width: 100%;
+                  padding: 15px 0;
+                  margin: 0 auto;
+                  text-align: center;
+         }
+         header .headline{
+                  font-size: 32px;
+         }
+         .nav-list {
+                  text-align: center;
+                  padding: 10px 0;
+                  margin: 0 auto;
+         }
+         .nav-list-item {
+                  list-style: none;
+                  display: inline-block;
+                  margin: 0 20px;
          }
          
 }
