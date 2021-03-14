@@ -6,7 +6,6 @@ height: auto;
 width /***/:auto;
 }
  
- <style>
  h1,h2,h3{
   color:darkgreen;
   background-color:aquamarine;
@@ -25,6 +24,5 @@ width /***/:auto;
   style="border:0;"
   allowfullscreen="" 
  }
- </style>
 
 }
