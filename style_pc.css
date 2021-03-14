@@ -15,22 +15,22 @@
          }
          header {
                   width: 100%;
-                  padding: 15px 0;
+                  padding: 20px 0;
                   margin: 0 auto;
                   text-align: center;
          }
          header .headline{
-                  font-size: 32px;
+                  font-size: 40px;
          }
          .nav-list {
                   text-align: center;
-                  padding: 10px 0;
+                  padding: 15px 0;
                   margin: 0 auto;
          }
          .nav-list-item {
                   list-style: none;
                   display: inline-block;
-                  margin: 0 20px;
+                  margin: 0 30px;
          }
          
 }
