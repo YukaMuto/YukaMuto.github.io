@@ -24,13 +24,13 @@
          }
          .nav-list {
                   text-align: center;
-                  padding: 20px 0;
+                  padding: 10px 0;
                   margin: 0 auto;
          }
          .nav-list-item {
                   list-style: none;
                   display: inline-block;
-                  margin: 0 40px;
+                  margin: 0 20px;
          }
          
 }
