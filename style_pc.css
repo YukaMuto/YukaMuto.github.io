@@ -1,15 +1,26 @@
 @media print, screen and (min-width: 640px) {
+
 <style>
          h1,h2,h3{
-             color:darkgreen;
-             background-color:aquamarine;
-             font-size:32px;
-             padding:16px;
+                  color:darkgreen;
+                  background-color:aquamarine;
+                  font-size:32px;
+                  padding:16px;
          }
          img{
              width:900px;
              height:500px;
              border:8px solid gray;
          }
-     </style>
+         iframe{
+                width="600" 
+                height="450"
+                frameborder="0"
+                style="border:0;"
+                allowfullscreen=""
+                aria-hidden="false"
+                tabindex="0"
+         }
+</style>
+
 }
