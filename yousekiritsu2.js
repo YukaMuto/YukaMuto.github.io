@@ -1,13 +1,10 @@
-let youseki = [0,0,0,0,0];
-for (let i = 0; i < 5; i++) {
-  youseki[i] = parseInt(prompt("階の床面積の値を入力してください"));
+let floor = prompt("建物の階数を入力してください")
+const youseki = new Array(parseInt(floor));
+for(let i = 0;i<youseki.length;i++){
+    youseki[i] = parseInt(prompt(i+1 + "階の床面積の値を入力してください"));
 }
-//床面積の合計
 let total = youseki.reduce(function(sum, element){
-  return sum + element;
+    return sum + element;
 }, 0);
-console.log(total);
-//敷地面積の入力
 let site1 = prompt("敷地面積 の値を入力してください")
-//容積率の合計
 document.write('容積率は'+ total /site1*100 +'％')
